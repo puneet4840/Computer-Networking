@@ -31,6 +31,7 @@ Protocols are the rules defined by the Internet Society which ensure how data sh
 It ensures that data packets must completely sent to receiver, Inform during the failure and success.
 
 Basic Protocols:-
+
 1 - TCP (Transmission Control Protocol): This ensure that the complete data will reach to its destination in correct order and without any error. 
 
 How TCP works:-
