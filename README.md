@@ -31,7 +31,7 @@ Protocols are the rules defined by the Internet Society which ensure how data sh
 It ensures that data packets must completely sent to receiver, Inform during the failure and success.
 
 Basic Protocols:-
-1 - TCP (Transmission Control Protocol): This ensure that the data will reach to its destination in correct order and without any error. 
+1 - TCP (Transmission Control Protocol): This ensure that the complete data will reach to its destination in correct order and without any error. 
 
 How TCP works:-
   - Establish a Connection:- 
@@ -43,4 +43,23 @@ How TCP works:-
   - Connection Termination:-
     Once data is transmitted, connection can be terminated using the TCP Four-way handshake process.
 
-2 - UDP ()
+2 - UDP (User Datagram Protocal): This protocol is a connection-less protocol which sends the data to receiver but does not guarentee the complete transmission of data packets to receiver. It is used for application where speed and efficiency are priotized over reliability such as Video Calling, Online Gaming Live Streaming, Voice Over IP (VoIP). Suppose you are on a video call with someone then sometime video stuck or freezes, it means your data packets get lost did not reach to you that's why you got the freeze in the video calling.
+
+How UDP Works:-
+    - Imagine a real time video streaming application using UDP.
+    - The video stream is broken down into UDP packets, each packet is containing the portion of video data. These packets are sent over the network to the receiving device, which decodes and displays the video in real time.
+    - If few packets are lost or arrive out of order, the video may experience glitched, frezze but the application continues to play without waiting for retransmission.
+
+
+3 - HTTP/HTTPS
+
+4 - SMTP
+
+5 - FTP
+
+6 - DNS
+
+7 - DHCP
+
+
+**IP Address**
