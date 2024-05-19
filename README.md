@@ -114,3 +114,6 @@ e.g. When data is transferred from your computer to a switch in your office netw
 7 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal.
 
 e.g. When you plug an Ethernet cable into your computer and connect it to a router, you're working with the physical layer.
+
+
+**TCP/IP Model**
