@@ -92,25 +92,25 @@ e.g. When you use your web browser to access a website, the application layer ha
 e.g. When you access a secure website (HTTPS), the presentation layer encrypts your data to ensure privacy and security during transmission.
 
 
-3 - Session Layer:- This layer establish, manages, terminates the communication session between the two devices.
+3 - _Session Layer_:- This layer establish, manages, terminates the communication session between the two devices.
 
 e.g. When you have a video call, the session layer establishes and maintains the session between your device and the remote device until the call ends.
 
 
-4 - Transport Layer:- This layer divides the large amount of data into smaller packets then send it to netwrok layer.
+4 - _Transport Layer_:- This layer divides the large amount of data into smaller packets then send it to netwrok layer.
 
 e.g. When you stream a video, the transport layer ensures that the video data packets arrive in the correct order and are reassembled properly.
 
 
-5 - Network Layer:- This layer add the source and destination IP address to each data packet.
+5 - _Network Layer_:- This layer add the source and destination IP address to each data packet.
 
 e.g. When you access a website, your router determines the best path for the data packets to travel across the internet to reach the web server.
 
 
-6 - Data-Link Layer:- This layer check the error in each layer. This layer packages the data into manageable chunks and adds error-checking information. It's responsible for ensuring the data gets delivered to the correct device on the same network segment.
+6 - _Data-Link Layer_:- This layer check the error in each layer. This layer packages the data into manageable chunks and adds error-checking information. It's responsible for ensuring the data gets delivered to the correct device on the same network segment.
 
 e.g. When data is transferred from your computer to a switch in your office network, the data link layer handles the addressing and ensures error-free delivery.
 
-7 - Physical Layer:- It is responsile for physical transmission of data over wired cable or wireless signal.
+7 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal.
 
 e.g. When you plug an Ethernet cable into your computer and connect it to a router, you're working with the physical layer.
