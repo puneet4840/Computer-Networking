@@ -107,13 +107,36 @@ e.g. When you stream a video, the transport layer ensures that the video data pa
 e.g. When you access a website, your router determines the best path for the data packets to travel across the internet to reach the web server.
 
 
-6 - _Data-Link Layer_:- This layer check the error in each layer. This layer packages the data into manageable chunks and adds error-checking information. It's responsible for ensuring the data gets delivered to the correct device on the same network segment.
+6 - _Data-Link Layer_:- This layer check the error in each packet. This layer packages the data into manageable chunks and adds error-checking information. It's responsible for ensuring the data gets delivered to the correct device on the same network segment.
 
 e.g. When data is transferred from your computer to a switch in your office network, the data link layer handles the addressing and ensures error-free delivery.
 
-7 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal.
+7 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal. It finds the best path to send the data packet.
 
 e.g. When you plug an Ethernet cable into your computer and connect it to a router, you're working with the physical layer.
 
 
-**TCP/IP Model**
+###TCP/IP Model
+
+TCP/IP model is simplified and practical model for understanding how data is transmitted from one device to other device over the internet. It was designed by Department of Defence (DoD) in 1960.
+
+**What does TCP/IP do?**
+
+The main work of this model is to transfer the data from one device to another device. The main condition of this process is to make data reliable and accurate so that receiver will receive the same information which is send by the sender.
+
+**How does TCP/IP work?**
+
+Whenever we want to send something over internet using TCP/IP model, the TCP/IP mdeol divides the data into packets at sender's end and the same pckets have to be recombined at the receiver's end from the same data.
+
+5 Layers of TCP/IP model:-
+
+1 - _Application Layer_:- Application Layer is which the user interacts. It provides network services directly to end-user applications.
+
+2 - _Transport Layer_:- Transport layer divides the data into packets and ensures data gets delivered accuratly and in correct order between the devices.
+
+3 - _Network Layer_:- Network layer add the source and destination ip address to each data packet and responsible for routing data packets from one device to another.
+
+4 - _Data-Link Layer_:- This layer check the error in each packet. This layer packages the data into manageable chunks and adds error-checking information.
+
+5 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal. It finds the best path to send the data packet.
+
