@@ -116,7 +116,7 @@ e.g. When data is transferred from your computer to a switch in your office netw
 e.g. When you plug an Ethernet cable into your computer and connect it to a router, you're working with the physical layer.
 
 
-###TCP/IP Model
+### TCP/IP Model
 
 TCP/IP model is simplified and practical model for understanding how data is transmitted from one device to other device over the internet. It was designed by Department of Defence (DoD) in 1960.
 
