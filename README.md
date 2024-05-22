@@ -194,4 +194,8 @@ Server will know like who is contacting
 
 Real Life Examples:-
 
-1 - Imagine you are shopping online on amazon, As you browse different items and add them to your cart, a cookie is created is created to rember the items
+1 - Imagine you are shopping online on amazon, As you browse different items and add them to your cart, a cookie is created is created to rember the items in your cart. If you leave the site and come back later, the website can retrieve the cookie and your will still have the items you selected earlier.
+
+2 - When you login websites like Instagram or Gmail, acookie is created to remember your login session. When you open the same website again you don't need to login again directly redirecte to the homepage.
+
+
