@@ -141,7 +141,7 @@ Whenever we want to send something over internet using TCP/IP model, the TCP/IP 
 5 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal. It finds the best path to send the data packet.
 
 
-**PORT**
+### PORT
 
 A PORT is a virtual number which is assigned to an application or service running on a device which defines on which application to send the data. A device can run many applications or services at a time, e.g. You are searching something on a browser, checking email (using Outlook), listening to music (using music streaming application) at the same time. So here port comes in the picture, PORT will decide which application to send the data.
 
@@ -156,7 +156,7 @@ Ephemeral port is the temporary number assigned to that service or application w
 e.g. You are visiting a website in chrome, here your port 80 is already busy because the website you are visitin is using the PORT 80. If you open one more tab and visit to another websitethen ephemeral port comes here in picture. Your browser will assign a temporary port number to the other tabs you will open after the first tab. An that ephemeral port will last untill your session ends or you close the tab.
 
 
-**HTTP Protocol**
+### HTTP
 
 HTTP (Hypertext Transfer Protocol) is a set of rule which define how the data (web pages, images, videos) transmitted to the server and receive from the server over the internet.
 
@@ -164,7 +164,7 @@ It works on a Client-Server model where a client (your machine) sends the HTTP r
 
 HTTP uses TCP protocol to send or receive the data.
 
-It is a Stateless protocol it means when a user sends a HTTP request to the server then the server does not store any information about the user machine.
+It is a Stateless protocol it means when a user sends a HTTP request to the server then the server does not store any information about the user machine by default.
 
 **HTTP Methods**
 
@@ -184,3 +184,14 @@ Error or Status code represents the result of the http request. When you want to
 
 5XX - Server Errors (e.g., 500: Internal Server Error, 503: Service Unavailable).
 
+### Cookies
+
+Cookie is a small piece of data stored on a user's computer in the form of file by a web browser while visiting a website.
+
+e.g. When you visit a website for the first time that website will set (save) a cookie in your device, after that when you visit that same website again in the request header the cookie will be sent to the server by your browser then server will know ohh this request is coming from Puneet then the server will check in its database and find a last visit session for it.
+
+Server will know like who is contacting
+
+Real Life Examples:-
+
+1 - Imagine you are shopping online on amazon, As you browse different items and add them to your cart, a cookie is created is created to rember the items
