@@ -140,3 +140,18 @@ Whenever we want to send something over internet using TCP/IP model, the TCP/IP 
 
 5 - _Physical Layer_:- It is responsile for physical transmission of data over wired cable or wireless signal. It finds the best path to send the data packet.
 
+
+**PORT**
+
+A PORT is a virtual number which is assigned to an application or service running on a device which defines on which application to send the data. A device can run many applications or services at a time, e.g. You are searching something on a browser, checking email (using Outlook), listening to music (using music streaming application) at the same time. So here port comes in the picture, PORT will decide which application to send the data.
+
+IP Address- It uniquely idendified the device on network.
+
+PORT- Directing the data to the particular appliction or service on the device which is uniquely identified on a network.
+
+**Ephemeral PORT**
+
+Ephemeral port is the temporary number assigned to that service or application which is already running on the same port.
+
+e.g. You are visiting a website in chrome, here your port 80 is already busy because the website you are visitin is using the PORT 80. If you open one more tab and visit to another websitethen ephemeral port comes here in picture. Your browser will assign a temporary port number to the other tabs you will open after the first tab. An that ephemeral port will last untill your session ends or you close the tab.
+
