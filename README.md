@@ -199,3 +199,37 @@ Real Life Examples:-
 2 - When you login websites like Instagram or Gmail, acookie is created to remember your login session. When you open the same website again you don't need to login again directly redirecte to the homepage.
 
 
+### SMTP
+
+SMTP (Simple Mail Transfer Protocol) is the set rules that is used to send email from one person to another person. It tells how the email data travels from sender's device to receiver's device.
+
+How it works?
+
+Behind the scene your email client doesn't send the email directly. Instead, it connects to a special server called SMTP server.
+
+There are two ways:-
+
+1 - When a person send a mail from Gmail to Gmail:-
+
+You write an email using an email client like Gmail. Your email client (Gmail) connects to its SMTP server and sends the mail data to its server. Now SMTP server processes the data and determine the receiver's detail. If the detail is correct then SMTP server transfer the mail to receiver's device. Finally receiver receive the mail and SMTP server send success or failure acknowledgement to sender. There is a dedicated SMTP server of each of the client like Gmail. 
+
+2 - When a person send a mail from Gmail to Outlook.
+
+Your write an email using an email client like Gmail. Your email client (Gmail) to its SMTP server and sends the mail data to its server. Now Gmail SMTP server connects to the receiver's SMTP server, verify the receiver's detail and sends mail data to receiver's SMTP server. Here in this case Gmail SMTP server will connect to the Outlook SMTP server. Now receiver's SMTP server attempts to deliver the email to recipeint's mail box. If there is an issue receiver's SMTP server bounce back the mail to sender, noifying them the failed delivery.
+
+e.g., Imagine you are sending a birthday email to your friend who uses Yahoo mail:-
+
+- Your client connects to your email provider's SMTP server (like Gmail).
+
+- The SMTP server verifies your login information.
+
+- The SMTP server finds Yahoo Mail's SMTP server address.
+
+- Your email is sent to Yahoo Mail's SMTP server.
+
+- Yahoo mail's server check if the recipeint's emsil address exists and deliver it to their inbox.
+
+- If the recipient's mailbox is full, Yahoo Mail's server sends a bounce-back message to your Gmail account.
+
+SMTP uses port 25 for the communication. It uses TCP protocol to send or receive the data.
+
