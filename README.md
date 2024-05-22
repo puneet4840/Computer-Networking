@@ -155,3 +155,32 @@ Ephemeral port is the temporary number assigned to that service or application w
 
 e.g. You are visiting a website in chrome, here your port 80 is already busy because the website you are visitin is using the PORT 80. If you open one more tab and visit to another websitethen ephemeral port comes here in picture. Your browser will assign a temporary port number to the other tabs you will open after the first tab. An that ephemeral port will last untill your session ends or you close the tab.
 
+
+**HTTP Protocol**
+
+HTTP (Hypertext Transfer Protocol) is a set of rule which define how the data (web pages, images, videos) transmitted to the server and receive from the server over the internet.
+
+It works on a Client-Server model where a client (your machine) sends the HTTP request to the server and A server sends the HTTP response to the client. Here works the HTTP protocol.
+
+HTTP uses TCP protocol to send or receive the data.
+
+It is a Stateless protocol it means when a user sends a HTTP request to the server then the server does not store any information about the user machine.
+
+**HTTP Methods**
+
+HTTP methods tells the server what to do when a client makes a http request to the server, like Get the data, Post the data, Put the data, Delete the data.
+
+**HTTP Error/Status Codes**
+
+Error or Status code represents the result of the http request. When you want to know the status of your sent request to the server it is known by these codes.
+
+1XX - Informational (e.g., 100: Continue).
+
+2XX - Success (e.g., 200: OK, 201: Created).
+
+3XX - Redirection (e.g., 301: Moved Permanently, 302: Found).
+
+4XX - Client Errors (e.g., 404: Not Found, 403: Forbidden).
+
+5XX - Server Errors (e.g., 500: Internal Server Error, 503: Service Unavailable).
+
